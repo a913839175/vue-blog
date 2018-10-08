@@ -1,0 +1,43 @@
+@charset "utf-8";
+.grid figure figcaption {color: #fff;}
+.headCover {position: absolute;top: 0;width: 100%;bottom: 0;background-size: cover;background-position: center;transition: all .4s ease;-webkit-transition: all .4s ease;-moz-transition: all .4s ease;align-items: flex-start;background-image: url('/static/images/background/27.jpg');}
+.headCover:after {content: "";position: absolute;width: 100%;height: 100%;top: 0;left: 0;opacity: 0;pointer-events: none;transition: all .4s ease;-webkit-transition: all .4s ease;-moz-transition: all .4s ease;background: -moz-linear-gradient(top,rgba(255,255,255,0) 10%,rgba(251,251,251,1) 100%);background: -webkit-linear-gradient(top,rgba(255,255,255,0) 10%,rgba(251,251,251,1) 100%);background: linear-gradient(to bottom,rgba(255,255,255,0) 10%,rgba(251,251,251,1) 100%)}
+.slide .headCover::after {opacity: 1;}
+.introduce-title {position: absolute;text-align: center;margin: 0 auto;width: 100%;height: 100%;color: #fff;z-index: 1;transform: translate3d(0,20%,0);-webkit-transform: translate3d(0,20%,0);}
+.introduce-title, .introduce-title * {transition: all .4s ease;-webkit-transition: all .4s ease;-moz-transition: all .4s ease;}
+.introduce-title h1{padding: 0 0 .2em;color: #fff;font-weight: 800;font-size: 3.25em;text-align: center; }
+.introduce-title{transition: all .4s ease;-webkit-transition: all .4s ease;-moz-transition: all .4s ease;}
+.view-Body {-webkit-backface-visibility: hidden;-moz-backface-visibility: hidden;-ms-backface-visibility: hidden;backface-visibility: hidden;position: absolute;top: 100%;width: 100%;z-index: 1;transition: all .4s ease;-webkit-transition: all .4s ease;-moz-transition: all .4s ease;opacity: 0;transform: translate3d(-350px,0,0);-webkit-transform: translate3d(-350px,0,0);-moz-transform: translate3d(-350px,0,0);}
+.container{padding-right: 15px;padding-left: 15px;margin-right: auto;margin-left: auto;}
+.codrops-header h1 {margin: 0;font-weight: 800;font-size: 3em;line-height: 1.3;}
+.codrops-header h1 span {display: block;padding: 0 0 .6em .1em;font-size: 45%;font-weight: 300;color: #7e959d;}
+.view-body-main {top: 85%;}
+.codrops-header {margin: 0 auto;padding: 4em 1em;text-align: center;}
+.slide .head-arrow-down{display: none;}
+.slide .view{transform: translate3d(0,-25%,0);-webkit-transform: translate3d(0,-25%,0);-moz-transform: translate3d(0,-25%,0);}
+.slide .view-Body {opacity: 1;transform: translate3d(0,0,0);-webkit-transform: translate3d(0,0,0);-moz-transform: translate3d(0,0,0);}
+.clearfix:after { content: '.'; display: block; clear: both; height: 0; visibility: hidden; }
+.clearfix { zoom: 1; }
+.footNote {position: relative;bottom: 0;margin-top: 65px;border-top: 1px solid #eee;padding: 15px;text-align: center;color: #888;}
+.footNote p {margin: 0 0 10px;font-size: 12px;font-weight: 300;}
+.footNote p a {color: #999;}
+.container{display: block;max-width: 1000px;padding: 10px;margin: 0 auto;overflow: hidden;}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.work-list {margin: 0 -10px -10px 0;height: auto;overflow: hidden;margin-left: -10px;}
+.item-imgh{height: 250px}
+.work-cate {height: 40px;line-height: 40px;margin: 10px 0;font-size: 16px;border-bottom: 1px solid #ddd;}
+.work-content{max-width: 1000px}
+.work-list .work-item {float: left;width: 240px;height: 320px;overflow: hidden;margin: 0 0 10px 10px;box-shadow: 0 0 10px #ddd;position: relative;border: 1px solid #eaeaea;cursor: pointer;}
+.work-list .item-long {height: 420px;}
+.work-list .work-item:hover {box-shadow: 0 0 10px #48d006;border-color: #48d006;}
+.work-list .work-item .item-img {width: 100%;height: 343px;overflow: hidden;position: relative;}
+.work-list .work-item .item-img img {width: 100%;}
+.work-list .work-item .item-title {height: 30px;font-size: 14px;padding: 0 10px;line-height: 30px;}
+.work-list .work-item .item-info {width: 100%;height: 100%;padding: 30px;position: absolute;left: 0;top: 0;-webkit-box-sizing: border-box;box-sizing: border-box;color: #fff;background: rgba(0,0,0,.6);display: none;}
+.work-list .work-item:hover .item-info {opacity: 1;display: table;}
+.work-list .work-item:hover .item-info span {display: table-cell;vertical-align: middle;}
+.work-list .work-item .item-info .wx-ewm {width: 80%;display: block;margin: 0 auto;margin-bottom: 10px;}
+.work-list .work-item .item-href {display: block;height: 40px;line-height: 40px;text-align: center;color: #fff;background: #48d006;width: 100%;position: absolute;bottom: 0;left: 0;}
