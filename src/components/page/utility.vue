@@ -97,6 +97,16 @@
                                 </div>
                             </a>
                         </li>
+                        <li class="item">
+<!--                             <a href="/unload" target="_blank"> -->
+                            <router-link to="/unload">
+                                <div class="i-head"> <span class="open open1">章</span>
+
+                                    <p>百度文本编辑器</p>
+                                </div>
+                            </router-link>
+<!--                             </a> -->
+                        </li>
                     </div>
                 </div>
                 <vBread></vBread>

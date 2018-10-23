@@ -40,3 +40,20 @@ export const postData = (url, data) =>{
       })
     })
 }
+export const formData = (url, data) =>{
+    return new Promise((resolve, reject) => {
+      axios.post(url,data, {
+        headers: {    
+          'Content-Type': 'multipart/form-data'   
+        }
+      }).then((res) => {
+        resolve(res)
+      }).catch((error) => {
+         console.log(store)
+         console.log(store)
+         console.log("post请求failed")
+         reject(err)
+
+      })
+    })
+}

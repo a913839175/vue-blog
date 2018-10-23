@@ -4,6 +4,7 @@ import home from '@/components/common/home'
 
 Vue.use(Router)
 export default new Router({
+    // mode: 'history',
     routes: [
         {
             path: '/',
@@ -41,6 +42,10 @@ export default new Router({
             path:'/loading',
             name: '过程加载',
             component: resolve => require(['@/components/common/loading'], resolve)
+         },{
+            path:'/unload',
+            name: '文章上传',
+            component: resolve => require(['@/components/common/unload'], resolve)
          }] 
       }
     ]

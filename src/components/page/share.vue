@@ -11,11 +11,11 @@
                   <div v-for="item in ArticleList">
                     <div class="content-item" @click = "func(item.id)">
                           <div class="rowitem-left">
-                              <img :src="photoUrl + item.photo" style="cursor: pointer;">
+                              <img :src="item.photo" style="cursor: pointer;">
                           </div>
                           <div class="rowitem-right">
                               <div class="rowitem-title"><h1 style="margin: 0px;">{{item.title}}</h1>
-                                  <p style="cursor: pointer;">{{item.desc}}<a href="/detail/151">......</a>
+                                  <p style="cursor: pointer;">{{item.title}}<a href="/detail/151">......</a>
                                   </p>
                               </div>
                           </div>

@@ -60,9 +60,13 @@
                                         <p></p>
                                         <p>3、参与公司官网页面H5的版本。</p>
                                         <p></p>
-                                        <p>3、用jsp把php版本的前端页面改版,前后分离的模式，后台负责接口，前台负责数据的调用和页面的渲染和维护。</p>
+                                        <p>4、用jsp把php版本的前端页面改版,前后分离的模式，后台负责接口，前台负责数据的调用和页面的渲染和维护。</p>
                                         <p></p>
-                                        <p>4、负责日常活动的H5小游戏，编写简单的H5游戏和jssdk的调用，和后台数据的交互</p>
+                                        <p>5、负责日常活动的H5小游戏，编写简单的H5游戏和jssdk的调用，和后台数据的交互</p>
+                                        <p></p>
+                                        <p>6、日常研究微信小程序,根据app的图写了大部分的微信小程序demo</p>
+                                        <p></p>
+                                        <p>7、日常有时间用vue+php,接口自己用php编写,前端页面自己用vue进行编写。</p>
                                     </li>
                                 </ul>
                             </div>
@@ -71,27 +75,64 @@
                              <h3 class="m-title"><span>项目经验</span></h3>
                             <div class="m-content">
                                 <ul class="m-list">
-                                    <!-- <li class="list-timeline"></li>
-                                        <li class="list-title font500">2016手淘双11项目-天猫集结令(站队)</li>
-                                        <li class="list-desc">用到的技术：手淘lib相关库、mtop相关接口的调用、原生js、HybridAPI</li>
-                                        <li class="list-desc">简介：通过淘宝、天猫客户端活动会场入口，引导用户进入页面参加活动，创建战队，通过微信，钉钉等通道分享造势期人拉人站队，当本战队所有人双11成交额累加达到某个门槛，即可在11月1日瓜分该门槛所对应的大额红包。</li>
-                                        <li class="list-title font500">设计芭</li>
-                                        <li class="list-desc">用到的技术：Ajax、Gulp、Php、Mysql、Less、Seajs、Jquery、artTemplate</li>
-                                        <li class="list-desc">项目描述：本项目用了Fullpage全屏滚动插件，主要使用户了解公司人员信息情况、展示公司的一些作品案例、以及公司的最近新闻资讯，让用户更加了解到公司的发展。该项目前端部分页面采用了SeaJS，后端使用PHP，利用了Sublime及JSlint插件、git、gulp、artTemplate、less等工具。</li>
-                                        <li class="list-desc">demo地址：<a href="http://yunplus.com.cn/" target="_blank">http://yunplus.com.cn/</a>
-                                    </li> -->
+                                    <li class="list-title font500">阿里外包活动页面前端开发（2015/10–2016/6）</li>
+                                    <li class="list-desc">用到的技术：Kissy、Kimi、Zepto、Less、Tms等</li>
+                                    <li class="list-desc">简介：负责淘宝、天猫、手淘等外包活动页面前端模块化开发</li>
+                                    <li class="list-desc">项目业绩： 通过这些活动页面的开发，掌握了kissy，kimi等前端框架的使用，模块化开发的原理及优势，能满足各类需求。</li>
+                                </ul>
+                                <ul class="m-list">
+                                    <li class="list-title font500">半夜说要改版头,我的内心是奔溃的。</li>
+                                    <li class="list-desc">css3+anminate模拟打电话</li>
+                                    <li class="list-desc">简介：公司内部的活动娱乐页面</li>
+                                    <li class="list-desc">做改项目的原因： 在博彦遇到68大促和双11活动，页面特别多，加班特别频繁，故加完班后，公司组织的活动页面给大家开心开心，放松放松！！</li>
+                                    <li class="list-desc">demo地址：<a href="https://github.com/a913839175/night">https://github.com/a913839175/night</a></li>
+                                </ul>
+                                <ul class="m-list">
+                                    <li class="list-title font500">微拍贷理财页面</li>
+                                    <li class="list-desc">用到的技术：seajs、jquery和许多插件等</li>
+                                    <li class="list-desc">简介：微拍贷专门供给借款人的理财页面。使用seajs对js进行模块化管理!</li>
+                                    <li class="list-desc">demo地址：<a href="http://www.old.weipaidai.com">http://www.old.weipaidai.com</a></li>
+                                </ul>
+                                <ul class="m-list">
+                                    <li class="list-title font500">元康国投jsp版本</li>
+                                    <li class="list-desc">用到的技术：jsp，el表达式，controller部分的java代码,eacher画图软件</li>
+                                    <li class="list-desc">简介：公司页面迎来大修改，不用php,因为我们页面需要兼容ie8,,选了jsp来改变微拍贷的项目，然后后台负责接口，前台进行对数据进行渲染和部分controller文件的编写，达到前后分离，java把jar文件发给我们前端，前端用docker部署在虚拟机上，然后就解决java代码重启的时候对我们代码调试造成影响，迎合当前web开发的主流，后因政策原因未能上线！！！</li>
+                                    <li class="list-desc">demo地址：<a href="https://github.com/a913839175/ykgt">https://github.com/a913839175/ykgt</a></li>
+                                </ul>
+                                <ul class="m-list">
+                                    <li class="list-title font500">中秋h5小游戏</li>
+                                    <li class="list-desc">用到的技术：canvas画图技术，和jsask调用微信api</li>
+                                    <li class="list-desc">简介：公司运营一直用凡客技术的游戏活动页面,然后到期后，我们模仿凡客思路，制作了一套壳，然后利用canvas做了一个吃月饼的游戏，绑定微信公众号，然后通过让客户玩游戏，抽取加息券，然后打电话给客服，兑换加息券后，客户进行投资。</li>
+                                    <li class="list-desc">demo地址：<a href="https://github.com/a913839175/MidAutumnActive">https://github.com/a913839175/MidAutumnActive</a></li>
+                                </ul>
+                                <ul class="m-list">
+                                    <li class="list-title font500">星融学院后台管理系统</li>
+                                    <li class="list-desc">用到的技术：vue+elementui</li>
+                                    <li class="list-desc">简介：公司开发星融学院后台,正好赶上后台用java，然后前端就能用到vue,加上elementui,本套系统主要是添加会员，添加可能，上传图片，视频传到腾讯云，然后就可以在app上显示课程给投顾进行学习。</li>
+                                    <li class="list-desc">demo地址：<a href="https://github.com/a913839175/xrxy">https://github.com/a913839175/xrxy</a></li>
+                                </ul>
+                                <ul class="m-list">
+                                    <li class="list-title font500">车栈后台管理系统</li>
+                                    <li class="list-desc">用到的技术：vue+elementui+vuex</li>
+                                    <li class="list-desc">简介：前公司的老板他们公司还没招到前端，委托我们做一个后台管理系统，由于需要设置角色权限,登陆角色后获取后台给的json数据，和编写好的json数据进行对比，筛选出路需要的配置动态的加载进去，然后对客户车次进行登记，然后对车次的价格进行评估和授权，然后发起一个金融标的，对标的进行初审复审，然后给客户进行打钱，客户把车子抵押给东西</li>
+                                    <li class="list-desc">demo地址：<a href="https://github.com/a913839175/carStack">https://github.com/a913839175/carStack</a></li>
+                                </ul>
+                                <ul class="m-list">
+                                    <li class="list-title font500">vue博客</li>
+                                    <li class="list-desc">用到的技术：vue+vuex+php</li>
+                                    <li class="list-desc">简介：有段时间由于监管支付通道停止，然后有所有时间进行学习，就通过vue编写了一个博客，也加入了页面响应式的代码，让页面通过屏幕大小的变化而变化，博客这块主要是技术详谈中的详情页花费的时间精力比较多，之前项目中碰到的问题找到答案后，然后把文章复制过来，通过百度富文本编辑器，上传到自己的后台放进数据库进行存储,然后前端对页面的h3标题和H4标题进行提取，加入到导航，还有全屏模式，还有文章的留言功能，这博客的php接口都自己完成，很多是拷贝网上的代码，比如图片上传，增删该查的sql等等，vue文件he php文件用nginx部署到阿里云。</li>
+                                    <li class="list-desc">demo地址：<a href="http://sxr.luhuiyue.cn">http://sxr.luhuiyue.cn</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="m-table">
-                             <h3 class="m-title"><span>个人评价</span></h3>
-
+                            <h3 class="m-title"><span>个人评价</span></h3>
                             <div class="m-content">
                                 <p>深度互联网从业人员，对互联网保持高度的敏感性和关注度，熟悉产品开发流程，有很强的开发能力，能独立承担WEB项目的管控工作。</p>
                                 <p>我正在寻找一个更好的发展平台，希望能够充分发挥自己的优势，共同努力成就一番事业。</p>
-                                <br>个人博客主页：
+                                <br>个人博客主页：<a href="http://sxr.luhuiyue.cn">http://sxr.luhuiyue.cn</a>
                                 <a href="" target="_blank"></a>
-                                <br>Coding git项目主页：
+                                <br>git项目主页：<a href="https://github.com/a913839175">https://github.com/a913839175</a>
                                 <a href="" target="_blank"></a>
                             </div>
                         </div>

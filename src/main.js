@@ -9,6 +9,10 @@ import VeeValidate,{ Validator } from 'vee-validate'
 import zh_CN from '../static/js/zh_CN' //引入中文包，提示信息可以以中文形式显示
 import $ from 'jquery'
 import store from './store'
+import '../static/UE/ueditor.config.js'
+import '../static/UE/ueditor.all.min.js'
+import '../static/UE/lang/zh-cn/zh-cn.js'
+import '../static/UE/ueditor.parse.min.js'
 
 Validator.addLocale(zh_CN); // 设置提示信息中文方式显示
 

@@ -1,7 +1,7 @@
 <template>
     <div :class="headCoverSilde?'slide':''">
         <vNavigation></vNavigation>
-        <div class="headCoverDetail"  :style="{background: 'url(./static/images/article/'+ addList.photo +')'}">
+        <div class="headCoverDetail"  :style="{background: 'url(' + addList.photo + ')'}">
             <div class="title">
                  <h1>{{addList.title}}</h1> 
                  <h2 class="title-h2"><span><i aria-hidden="true" class="fa fa-user"></i>{{addList.auth}}</span><br><br> <span class="title-h2-date">date:  {{addList.time}}</span><br></h2> 
@@ -45,7 +45,6 @@
                             </li>
                         </ul>
                     </div>
-                    <h1 ref="test">{{msg}}</h1>
                     <div class="contents" v-html="addList.content" id="contents"></div>
                     <div class="pay-for">
                         <a href="javascript:;" class="thumbUpAnimate " :class="thumbsUpFlag?'thumbUpAlready':''" @click="setArticleThumbUp()">
@@ -125,7 +124,6 @@ export default {
   name: 'sharedetails',
   data () {
     return {
-      msg:'Hello vue',
       headCoverSilde:false,
       id:'',
       addList:'',

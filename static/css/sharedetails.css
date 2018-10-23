@@ -271,6 +271,9 @@ h1{font-size: 36px;}
 .head-close i {
     display: block;
 }
+.slide .head-arrow-down{
+    display: none;
+}
 
 /*留言板 结束*/
 @media (min-width: 768px){
